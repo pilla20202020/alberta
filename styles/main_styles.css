@@ -798,6 +798,13 @@ section
 {
 	right: 4.32%;
 }
+.btn-submit {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #B3D369;
+	color: #fff;
+}
 
 /*********************************
 6. Hero Boxes
@@ -835,7 +842,7 @@ section
     margin-bottom: 0px;
     border-bottom: 3px solid #EDEDed;
 	color: #fff;
-    
+
 }
 .hero_box h4 {
 	padding: 10px 0px 0px 25px;
@@ -921,7 +928,7 @@ section
 7. About Us
 *********************************/
 .aboutus {
-	margin-top: 200px;
+	margin-top: 250px;
 }
 .aboutus p {
 	line-height: 25px;
@@ -947,7 +954,7 @@ section
 .service_item h3
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 22px;
+	font-size: 19px;
 	font-weight: 500;
 	color: #1a1a1a;
 	margin-bottom: 13px;
@@ -964,11 +971,12 @@ section
 {
 	height: 41px;
 	width: auto;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
-.icon_container img
+.icon_container i
 {
-	height: 100%;
+	font-size: 50px;
+	color: #B3D369;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
